@@ -8,59 +8,59 @@ Struktur ini memudahkan pengguna mengakses data yang dibutuhkan secara cepat dan
 
 Beberapa metode yang digunakan untuk list / daftar pada python : 
 
-```
-list.append(*x*)
-    Item ini ditambahkan pada akhir sebuah daftar.
+```python
+list.append(x)
+    # Item ini ditambahkan pada akhir sebuah daftar.
 ``` 
 
-```
-list.extend(*iterable*)
-    *Extend* pada daftar dapat ditambahkan ke semua item yang berada di *iterable*.
+```python
+list.extend(iterable)
+    # Extend pada daftar dapat ditambahkan ke semua item yang berada di iterable.
 ```
         
-```
-list.insert(*i*, *x*)
-    *Insert* dapat digunakan untuk memberikan posisi pada sebuah item. Argumen pertama merupakan indeks dari elemen sebelum dimasukkan dengan *insert*
+```python
+list.insert(i, x)
+    # Insert dapat digunakan untuk memberikan posisi pada sebuah item. Argumen pertama merupakan indeks dari elemen sebelum dimasukkan.
 ```
 
-```
-list.remove(*x*)
-    *Remove* dapat digunakan untuk menghilangkan item pertama disebuah daftar yang nilainya sama dengan *x* dan akan menghasilkan ValueError jika tidak ditemukan item yang serupa. 
+```python
+list.remove(x)
+    # Remove dapat digunakan untuk menghilangkan item pertama disebuah daftar yang nilainya sama dengan x dan akan menghasilkan ValueError jika tidak ditemukan item yang serupa. 
 ```
         
-```
+```python
 list.pop([i])
-    Perintah ini dapat menghapus item yang berada pada posisi tertentu didalam daftar dan dapat juga dikembalikan lagi. Jika tidak ditemukan indeks yang ditentukan akan dihapus dan dikembalikan sehingga menjadi item terakhir didalam daftar.
+    # Perintah ini dapat menghapus item yang berada pada posisi tertentu didalam daftar dan dapat juga dikembalikan lagi. Jika tidak ditemukan indeks yang ditentukan akan dihapus dan dikembalikan sehingga menjadi item terakhir didalam daftar.
 ```
        
-```
+```python
 list.clear()
-    Memindahkan semua item dari daftar.
+    # Memindahkan semua item dari daftar.
 ``` 
         
-```
-list.index(*x*[, *start*[, *end*]])
-    Mengulang data dari indeks *zero-base* pada daftar menjadi item pertama dengan *value* berupa x atau yang setara dan akan menghasilkan ValueError jika tidak ditemukan perintah serupa didalamnya.
+```python
+list.index(x[, start[, end]])
+    # Mengulang data dari indeks *zero-base* pada daftar menjadi item pertama dengan *value* berupa x atau yang setara dan akan menghasilkan ValueError jika tidak ditemukan perintah serupa didalamnya.
 ```
 
-```
-list.count(*x*)
-    Menghitung kembali nomor dari variabel *x* yang berada didalam daftar.
+```python
+list.count(x)
+    # Menghitung kembali nomor dari variabel *x* yang berada didalam daftar.
 ```
         
-```
-list.sort(*, key=None, Reverse=False)
-    *Sort* berfungsi untuk menyortir item didalam daftar.
+```python
+list.sort(, key=None, Reverse=False)
+    # Sort berfungsi untuk menyortir item didalam daftar.
 ```
 
-```
+```python
 list.reverse()
-    *Reverse* berfungsi untuk membalikkan elemen didaftar pada tempat sebenarnya.
+    # Reverse berfungsi untuk membalikkan elemen didaftar pada tempat sebenarnya.
 ```
 
-```
+```python
 list.copy()
-    Perintah ini berfungsi untuk mengembalikan salinan daftar yang dangkal.
+    # Perintah ini berfungsi untuk mengembalikan salinan daftar yang dangkal.
 ```
 
 Contoh penggunaan metode pada list python : 
